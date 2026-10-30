@@ -1,0 +1,17 @@
+POLYMATH — Adobe Fonts
+======================
+
+La typo est chargée depuis ton projet web Adobe Fonts, avec cette ligne dans index.html :
+  <link rel="stylesheet" href="https://use.typekit.net/jyc0jgu.css">
+
+Familles utilisées (css/style.css, en haut, variables --font, --font-ui, --font-display) :
+  polymath-display  700  → grands titres (nom, projets, "Salut, moi c'est Maya")
+  polymath          500 / 700 / 800 / 900 → menu, sous-titres, index, contact
+  polymath-text     400  → textes courants
+
+Pour changer de graisse, modifie font-weight dans css/style.css.
+Si tu changes les polices cochées dans ton projet Adobe, il faut que les graisses
+ci-dessus restent incluses, sinon le navigateur prendra la plus proche.
+
+Ce dossier /fonts n'est plus nécessaire : il ne sert que si un jour tu héberges
+les fichiers de police toi-même.
